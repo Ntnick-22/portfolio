@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #eee;
+  padding: 50px 0;
+}
+nav,
+#projects {
+  background-color: rgb(255, 0, 119);
+  padding: 10px 0;
+}
+#about-me,
+#contact {
+  background-color: burlywood;
+  padding: 15px 0;
+}
+#skills,
+footer {
+  background-color: #ffc;
+  padding: 15px 0;
+}
+#certifications {
+  background-color: pink;
+  padding: 15px 0;
+}
