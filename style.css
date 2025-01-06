@@ -1,29 +1,82 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  background-color: Soft #ecf0f1;
+}
+.bg-primary {
+  background-color: #ecf0f1;
+}
+.bg-secondary {
+  background-color: #2c3e50;
+}
+.text-primary {
+  color: #ecf0f1;
+}
+.text-secondary {
+  color: #2c3e50;
+}
+.header-font {
+  font-family: "Caudex", serif;
+}
+.body-font {
+  font-family: "Lato", serif;
 }
 
 #header {
-  background-color: #eee;
-  padding: 50px 0;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 20px 0;
 }
-nav,
-#projects {
-  background-color: rgb(255, 0, 119);
-  padding: 10px 0;
-}
-#about-me,
-#contact {
-  background-color: burlywood;
+
+#header h1 {
   padding: 15px 0;
+  font-size: 3rem;
 }
-#skills,
-footer {
-  background-color: #ffc;
-  padding: 15px 0;
+
+#header p {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
-#certifications {
-  background-color: pink;
-  padding: 15px 0;
+
+#header a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+nav a {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-decoration: 0;
+  padding: 10 10px;
+  font-family: "Lato", serif;
+  margin-right: 20px;
+  border-bottom: 10px;
+}
+nav a:hover {
+  border-bottom: 2px solid#2c3e50;
+}
+
+#about-us,
+#contact-us {
+  border: 2px solid #000;
+  padding: 20px 0;
+}
+
+#about-us h1,
+#contact-us h1 {
+  padding-left: 10px;
+}
+
+#about-us p,
+#contact-us p {
+  font-family: lato, serif;
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.5em;
 }

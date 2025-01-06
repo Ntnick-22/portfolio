@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/developer.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
@@ -11,10 +17,10 @@
   <body>
     <!-- header section -->
     <header id="header">
-      <h1>My Portfolio</h1>
+      <h1 class="header-font text secondary">My Portfolio</h1>
     </header>
-
-    <nav>
+    <!--- navigation section -->
+    <nav class="bg-secondary text-secondary">
       <a href="#about-me">Profile</a>
       <a href="#skills">Skills</a>
       <a href="#certfications">Certfications</a>
@@ -25,9 +31,9 @@
 
     <!-- about me -->
     <section id="about-me">
-      <h2>Who Am I?</h2>
+      <h2 class="bg-secondary text-primary">Who Am I?</h2>
       <img src="images/developer.jpg" alt="student-1" srcset="" />
-      <p>
+      <p class="body-font">
         "The MERN stack course was exactly what I needed to kickstart my journey
         into full-stack development. The instructors provided clear explanations
         and practical examples that helped me grasp the concepts quickly. I
@@ -39,8 +45,8 @@
 
     <!-- skills -->
     <section id="skills">
-      <h2>Skills</h2>
-      <ul>
+      <h2 class="bg-secondary text-primary">Skills</h2>
+      <ul class="body-font">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -49,8 +55,8 @@
 
     <!-- certifications -->
     <section id="certifications">
-      <h2>Certifications</h2>
-      <table border="1" cellpadding="10" cellspacing="0">
+      <h2 class="bg-secondary text-primary">Certifications</h2>
+      <table class="body-font" border="1" cellpadding="10" cellspacing="0">
         <tr>
           <th>No</th>
           <th>Certification Name</th>
@@ -81,7 +87,7 @@
 
     <!-- projects -->
     <section id="projects">
-      <h2>Projects</h2>
+      <h2 class="bg-secondary text-primary">Projects</h2>
       <ol>
         <li>My Portfolio</li>
         <li>Serene Sips</li>
@@ -91,8 +97,8 @@
 
     <!-- contact -->
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: may.passionateteacher@gmail.com</p>
+      <h2 class="bg-secondary text-primary">Contact</h2>
+      <p class="header-font">Email: may.passionateteacher@gmail.com</p>
     </section>
 
     <footer>
